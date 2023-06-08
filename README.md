@@ -1,5 +1,6 @@
 # Learn_C
-C Programming Examples and Utilities
+C Programming Examples and Utilities:
+
 Welcome to the C Programming Examples and Utilities repository! This repository is designed to be a comprehensive resource for programmers seeking to learn and enhance their skills in the C programming language. Whether you are a beginner or an experienced developer, this repository aims to provide a valuable collection of examples, utilities, and documentation to support your journey.
 Getting Started
 
