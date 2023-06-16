@@ -9,7 +9,6 @@ Write a program to display the following menu, using only one printf.
 4- AutoCAD.
 - - - - - - - - - - - - - - - - -  - - - - -
 Press the required number:
-
 */
 #include <stdio.h>
 int main()
