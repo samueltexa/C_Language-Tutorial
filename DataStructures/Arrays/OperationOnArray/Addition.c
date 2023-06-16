@@ -13,4 +13,5 @@ int main() {
    printf("Sum of all elements: %d\n", sum);
 
    return 0;
+   
 }
