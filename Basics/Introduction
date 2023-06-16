@@ -283,3 +283,163 @@ volatile
 The volatile keyword is used for creating volatile objects. A volatile object can be modified in an unspecified way by the hardware.
 const volatile number
 Here, number is a volatile object.
+
+
+
+
+HEADERS USED IN c
+    <stdio.h> (Standard Input/Output):
+        printf()
+        scanf()
+        fgets()
+        fopen()
+        fclose()
+        etc.
+
+    <stdlib.h> (Standard Library):
+        malloc()
+        free()
+        exit()
+        rand()
+        atoi()
+        etc.
+
+    <string.h> (String Manipulation):
+        strlen()
+        strcpy()
+        strcat()
+        strcmp()
+        strtok()
+        etc.
+
+    <math.h> (Mathematical Functions):
+        sqrt()
+        pow()
+        sin()
+        cos()
+        floor()
+        etc.
+
+    <ctype.h> (Character Handling):
+        isalpha()
+        isdigit()
+        toupper()
+        tolower()
+        etc.
+
+    <time.h> (Time and Date):
+        time()
+        localtime()
+        strftime()
+        difftime()
+        etc.
+
+    <stdbool.h> (Boolean Type):
+        bool
+        true
+        false
+
+    <stddef.h> (Standard Definitions):
+        NULL
+        size_t
+
+    <assert.h> (Program Assertions):
+        assert()
+
+    <unistd.h> (UNIX Standard Functions):
+        sleep()
+        getpid()
+        getcwd()
+        read()
+        write()
+        etc.
+
+    <assert.h>:
+        assert()
+
+    <complex.h>:
+        Complex number functions
+
+    <ctype.h>:
+        isalnum()
+        isalpha()
+        isdigit()
+        islower()
+        isupper()
+        tolower()
+        toupper()
+
+    <errno.h>:
+        errno
+
+    <fenv.h>:
+        Floating-point environment functions
+
+    <float.h>:
+        Floating-point limits
+
+    <inttypes.h>:
+        Integer types and functions
+
+    <iso646.h>:
+        Alternative spellings
+
+    <limits.h>:
+        Implementation-defined values
+
+    <locale.h>:
+        Localization functions
+
+    <math.h>:
+        Mathematical functions (e.g., sin(), cos(), sqrt())
+
+    <setjmp.h>:
+        Non-local jumps
+
+    <signal.h>:
+        Signal handling functions
+
+    <stdalign.h>:
+        Alignment functions and macros
+
+    <stdarg.h>:
+        Variable arguments handling
+
+    <stdbool.h>:
+        Boolean type and values
+
+    <stddef.h>:
+        Standard definitions (e.g., NULL, size_t)
+
+    <stdint.h>:
+        Integer types and limits
+
+    <stdio.h>:
+        Standard input/output functions (e.g., printf(), scanf())
+
+    <stdlib.h>:
+        General utility functions (e.g., malloc(), free(), exit())
+
+    <stdnoreturn.h>:
+        Non-returning functions
+
+    <string.h>:
+        String manipulation functions (e.g., strlen(), strcpy(), strcmp())
+
+    <tgmath.h>:
+        Type-generic mathematical functions
+
+    <time.h>:
+        Time and date functions (e.g., time(), localtime())
+
+    <uchar.h>:
+        UTF-16 and UTF-32 character utilities
+
+    <wchar.h>:
+        Wide character handling functions
+
+    <wctype.h>:
+        Wide character classification functions
+
+    <unistd.h>:
+        UNIX standard functions (e.g., sleep(), getpid())
