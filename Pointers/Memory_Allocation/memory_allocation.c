@@ -17,4 +17,6 @@ int main() {
    printf("Value: %d\n", *ptr);  // Output: 11
    free(ptr);  // Deallocate the memory
    return 0;
+
+   
 }
