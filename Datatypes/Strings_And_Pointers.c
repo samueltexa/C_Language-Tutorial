@@ -11,6 +11,7 @@ To an int its declared as===> int *a;
 */
 
 #include <stdio.h>
+#include <string.h>  // Include the <string.h> header for strlen()
 int main(){
     /*Example1*/
     char *a;
@@ -34,5 +35,35 @@ int main(){
     printf("\n%c",*x);
     printf("\n%d",x);
     printf("\n%p",x);
+
+//Strings
+    //string length
+    char str[] = "Hello, World!";
+    int length = strlen(str);
+    printf("\nLength of the string is: %d\n", length);
+
+    //string copy
+    char source[] = "Hello, World!";
+    char destination[20];
+    strcpy(destination, source);
+    printf("Copied string: %s\n", destination);
+
+    //string concatination(joining)
+    char str1[20] = "Hello";
+    char str2[] = ", World!";
+    strcat(str1, str2);
+    printf("Concatenated string: %s\n", str1);
+
+    //string comparision
+    char str3[] = "apple";
+    char str4[] = "banana";
+    int result = strcmp(str1, str2);
+    if (result < 0) {
+        printf("%s is less than %s\n", str3, str4);
+    } else if (result > 0) {
+        printf("%s is greater than %s\n", str3, str4);
+    } else {
+        printf("%s is equal to %s\n", str3, str4);
+    }
+
     return 0;
-}
