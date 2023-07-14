@@ -16,13 +16,13 @@ void* threadFunction(void* arg) {
     int* counter = data->counter;
     pthread_mutex_t* mutex = data->mutex;
 
-    // Lock the mutex before accessing the counter
+    // Locking the mutex before accessing the counter
     pthread_mutex_lock(mutex);
 
-    // Access the counter
+    // Accessing the counter
     printf("Thread %d: Counter value: %d\n", thread_id, *counter);
 
-    // Unlock the mutex after accessing the counter
+    // Unlocking the mutex after accessing the counter
     pthread_mutex_unlock(mutex);
 
     pthread_exit(NULL);
